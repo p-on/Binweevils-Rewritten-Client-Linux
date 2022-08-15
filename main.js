@@ -8,7 +8,7 @@ const { exit } = require('process');
 app.console = new console.Console(process.stdout, process.stderr);
 
 try {
-    let pluginName = 'flash/libpepflashplayer.so';
+    let pluginName = 'libpepflashplayer.so';
 
     app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, pluginName));
     app.commandLine.appendSwitch('disable-http-cache');
