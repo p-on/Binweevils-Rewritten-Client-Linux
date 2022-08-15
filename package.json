@@ -1,0 +1,14 @@
+{
+  "name": "bwrewritten-linux",
+  "description": "Linux client for binweevils.net",
+  "main": "main.js",
+  "bugs": {
+    "url": "https://github.com/p-on/Bin-Weevils-Rewritten-Client-Linux/issues"
+  },
+  "homepage": "https://github.com/BWRewritten",
+  "repository": "https://github.com/p-on/Bin-Weevils-Rewritten-Client-Linux",
+  "author": "Credited to HD & Jjs & AltoDev",
+  "dependencies": {
+    "electron": "^6.1.7"
+  }
+}
